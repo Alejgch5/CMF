@@ -4248,7 +4248,7 @@ h6 {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: auto;
+  /* width: auto; */
   opacity: 0;
   z-index: 2;
   -webkit-transition: 0.4s ease-in-out;

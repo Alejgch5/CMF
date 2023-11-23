@@ -151,8 +151,14 @@
 	});
 
 	//  product popup
-	$('.view').on('click', function () {
+	$('.view1').on('click', function () {
 		$('.overlay, .product-popup-1').addClass('show-popup');
+	});
+	$('.view2').on('click', function () {
+		$('.overlay, .product-popup-2').addClass('show-popup');
+	});
+	$('.view3').on('click', function () {
+		$('.overlay, .product-popup-3').addClass('show-popup');
 	});
 
 	$('.product-highlight__trigger').on('click', function () {
